@@ -1,0 +1,11 @@
+﻿  Seminar2.c
+C:\Users\Simionescu Alexandru\source\repos\Seminar2C\Seminar2C\Seminar2.c(23,34): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\source\repos\Seminar2C\Seminar2C\Seminar2.c(24,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\source\repos\Seminar2C\Seminar2C\Seminar2.c(39,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar2C\Seminar2C\Seminar2.c(41,14): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar2C\Seminar2C\Seminar2.c(55,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar2C\Seminar2C\Seminar2.c(56,14): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar2C\Seminar2C\Seminar2.c(67,8): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar2C\Seminar2C\Seminar2.c(76,10): warning C4133: 'initializing': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar2C\Seminar2C\Seminar2.c(100,8): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+  Seminar2C.vcxproj -> C:\Users\Simionescu Alexandru\source\repos\Seminar2C\x64\Debug\Seminar2C.exe

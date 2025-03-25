@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\Simionescu Alexandru\source\repos\ExersareSDDseminariiC\ExersareSDDseminariiC\Source.c(187,35): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\source\repos\ExersareSDDseminariiC\ExersareSDDseminariiC\Source.c(189,3): warning C4013: 'strcpy' undefined; assuming extern returning int
+  ExersareSDDseminariiC.vcxproj -> C:\Users\Simionescu Alexandru\source\repos\ExersareSDDseminariiC\x64\Debug\ExersareSDDseminariiC.exe

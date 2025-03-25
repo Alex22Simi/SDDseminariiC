@@ -1,0 +1,11 @@
+﻿  Seminar4C.c
+C:\Users\Simionescu Alexandru\source\repos\Seminar4sddC\Seminar4sddC\Seminar4C.c(31,47): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\source\repos\Seminar4sddC\Seminar4sddC\Seminar4C.c(32,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\source\repos\Seminar4sddC\Seminar4sddC\Seminar4C.c(39,13): warning C4133: '=': incompatible types - from 'nodStiva *' to 'nodStiva *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar4sddC\Seminar4sddC\Seminar4C.c(57,9): warning C4133: '=': incompatible types - from 'nodStiva *' to 'nodStiva *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar4sddC\Seminar4sddC\Seminar4C.c(70,8): warning C4133: '=': incompatible types - from 'nodStiva *' to 'nodStiva *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar4sddC\Seminar4sddC\Seminar4C.c(96,18): warning C4133: '=': incompatible types - from 'nodCoada *' to 'nodCoada *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar4sddC\Seminar4sddC\Seminar4C.c(111,9): warning C4133: '=': incompatible types - from 'nodCoada *' to 'nodCoada *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar4sddC\Seminar4sddC\Seminar4C.c(129,8): warning C4133: '=': incompatible types - from 'nodCoada *' to 'nodCoada *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar4sddC\Seminar4sddC\Seminar4C.c(121): warning C4715: 'get': not all control paths return a value
+  Seminar4sddC.vcxproj -> C:\Users\Simionescu Alexandru\source\repos\Seminar4sddC\x64\Debug\Seminar4sddC.exe
