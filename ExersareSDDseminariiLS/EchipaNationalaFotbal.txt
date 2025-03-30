@@ -1,0 +1,6 @@
+5
+Romania 0 0 Lucescu
+Argentina 3 16 Scaloni
+Brazilia 5 9 Dorival
+Italia 4 2 Spalletti
+RomaniaU21 0 1 Lucescu

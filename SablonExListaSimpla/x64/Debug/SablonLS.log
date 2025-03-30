@@ -1,0 +1,5 @@
+﻿  SablonListaSimpla.c
+C:\Users\Simionescu Alexandru\source\repos\SablonLS\SablonLS\SablonListaSimpla.c(18,37): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\source\repos\SablonLS\SablonLS\SablonListaSimpla.c(19,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\source\repos\SablonLS\SablonLS\SablonListaSimpla.c(108,7): warning C4013: 'strcmp' undefined; assuming extern returning int
+  SablonLS.vcxproj -> C:\Users\Simionescu Alexandru\source\repos\SablonLS\x64\Debug\SablonLS.exe
