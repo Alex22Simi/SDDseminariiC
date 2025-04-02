@@ -1,0 +1,15 @@
+﻿  lista_liste.c
+C:\Users\Simionescu Alexandru\source\repos\Seminar5Csdd\Seminar5Csdd\lista_liste.c(27,33): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\source\repos\Seminar5Csdd\Seminar5Csdd\lista_liste.c(28,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\source\repos\Seminar5Csdd\Seminar5Csdd\lista_liste.c(37,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar5Csdd\Seminar5Csdd\lista_liste.c(38,14): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar5Csdd\Seminar5Csdd\lista_liste.c(45,11): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar5Csdd\Seminar5Csdd\lista_liste.c(53,9): warning C4133: '=': incompatible types - from 'nodLP *' to 'nodLP *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar5Csdd\Seminar5Csdd\lista_liste.c(54,14): warning C4133: '=': incompatible types - from 'nodLP *' to 'nodLP *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar5Csdd\Seminar5Csdd\lista_liste.c(65,8): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar5Csdd\Seminar5Csdd\lista_liste.c(76,20): warning C4133: 'function': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar5Csdd\Seminar5Csdd\lista_liste.c(77,8): warning C4133: '=': incompatible types - from 'nodLP *' to 'nodLP *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar5Csdd\Seminar5Csdd\lista_liste.c(87,10): warning C4133: 'initializing': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar5Csdd\Seminar5Csdd\lista_liste.c(100,20): warning C4133: 'function': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Simionescu Alexandru\source\repos\Seminar5Csdd\Seminar5Csdd\lista_liste.c(99,10): warning C4133: 'initializing': incompatible types - from 'nodLP *' to 'nodLP *'
+  Seminar5Csdd.vcxproj -> C:\Users\Simionescu Alexandru\source\repos\Seminar5Csdd\x64\Debug\Seminar5Csdd.exe

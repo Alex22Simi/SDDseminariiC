@@ -1,0 +1,6 @@
+5
+Rapid 24 19000
+Dinamo 25 1890
+Craiova 29 20000
+FCSB 20 1988
+AcademiaRapid 15 1298

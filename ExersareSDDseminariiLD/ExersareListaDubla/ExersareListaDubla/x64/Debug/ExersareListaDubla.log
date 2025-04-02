@@ -1,0 +1,4 @@
+﻿  ListaDubla.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareSDDseminariiLD\ExersareListaDubla\ExersareListaDubla\ListaDubla.c(287,43): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareSDDseminariiLD\ExersareListaDubla\ExersareListaDubla\ListaDubla.c(288,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  ExersareListaDubla.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareSDDseminariiLD\ExersareListaDubla\x64\Debug\ExersareListaDubla.exe
