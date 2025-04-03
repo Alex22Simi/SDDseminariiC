@@ -1,4 +1,5 @@
 ﻿  ListaDubla.c
-C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareSDDseminariiLD\ExersareListaDubla\ExersareListaDubla\ListaDubla.c(287,43): warning C4013: 'strlen' undefined; assuming extern returning int
-C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareSDDseminariiLD\ExersareListaDubla\ExersareListaDubla\ListaDubla.c(288,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareSDDseminariiLD\ExersareListaDubla\ExersareListaDubla\ListaDubla.c(576,43): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareSDDseminariiLD\ExersareListaDubla\ExersareListaDubla\ListaDubla.c(577,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareSDDseminariiLD\ExersareListaDubla\ExersareListaDubla\ListaDubla.c(697,16): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
   ExersareListaDubla.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareSDDseminariiLD\ExersareListaDubla\x64\Debug\ExersareListaDubla.exe

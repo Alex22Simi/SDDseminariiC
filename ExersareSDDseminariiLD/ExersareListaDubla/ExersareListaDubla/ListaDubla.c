@@ -42,7 +42,7 @@ NodLD* inserareNodLD(NodLD* capLD, NodLD** coadaLD, Student student) {
 void traversareLD(NodLD* capLD) {
 	NodLD* temp = capLD;
 	while (temp != NULL) {
-		printf("Varsta: %d\nNume: %s\nMedie: %.2f\n\n\n",
+		printf("Varsta: %d\nNume: %s\nMedie: %.2f\n\n",
 			temp->info.varsta, temp->info.nume, temp->info.medie);
 		temp = temp->next;
 	}
@@ -51,7 +51,7 @@ void traversareLD(NodLD* capLD) {
 void traversareLDinvers(NodLD* coadaLD) {
 	NodLD* temp = coadaLD;
 	while (temp != NULL) {
-		printf("Varsta: %d\nNume: %s\nMedie: %.2f\n\n\n",
+		printf("Varsta: %d\nNume: %s\nMedie: %.2f\n\n",
 			temp->info.varsta, temp->info.nume, temp->info.medie);
 		temp = temp->prev;
 	}
@@ -85,11 +85,132 @@ void salvareStudentiInVectorDupaMedie(NodLD* capLD, Student* vectorStudenti, int
 
 }
 
+//adaugare student la sfarsit
+NodLD* adaugareStudentSfarsit(NodLD* capLD, NodLD** coadaLD, int varsta, const char* nume, float medie) {
+	Student student;
+	
+	student.varsta = varsta;
+	student.nume = (char*)malloc((strlen(nume) + 1) * sizeof(nume));
+	strcpy(student.nume, nume);
+	student.medie = medie;
 
-//sterge student dupa nume!!
-void stergereStudentDupaNume(NodLD** capLD, NodLD** coadaLD, const char* numeStudent) {
-	if(strcmp())
+	NodLD* nodNou = initializareNodLD(student);
+	if (capLD == NULL) {
+		capLD = nodNou;
+		(*coadaLD) = nodNou;
+	}
+	else {
+		(*coadaLD)->next = nodNou;
+		nodNou->prev = (*coadaLD);
+		(*coadaLD) = nodNou;
+	}
+	free(student.nume);
+	return capLD;
 }
+NodLD* adaugaStudentInceput(NodLD* capLD, NodLD** coadaLD, int varsta, const char* nume, float medie) {
+	Student student;
+	student.varsta = varsta;
+	student.nume = (char*)malloc((strlen(nume) + 1) * sizeof(char));
+	strcpy(student.nume, nume);
+	student.medie = medie;
+
+	NodLD* nodNou = initializareNodLD(student);
+
+	nodNou->prev = NULL;
+	nodNou->next = capLD;
+
+	if (capLD == NULL) {
+		capLD = nodNou;
+		(*coadaLD) = nodNou;
+	}
+	else {
+		capLD->prev = nodNou;
+		capLD = nodNou;
+	}
+	free(student.nume);
+	return capLD;
+}
+//calculeaza media mediilor studentilor
+float mediaMediilor(NodLD* capLD) {
+	NodLD* temp = capLD;
+	float valoare = 0.0f;
+	int contor = 0;
+	while (temp != NULL) {
+		valoare += temp->info.medie;
+		contor++;
+		temp = temp->next;
+	 }
+	if (valoare > 0) {
+		return valoare / contor;
+	}
+	else {
+		return 0;
+	}
+}
+
+//get nume student medie cea mai mare
+float medieMax(NodLD* capLD) {
+	float medieMax = 0.0f;
+
+	NodLD* temp = capLD;
+	while (temp != NULL) {
+		if (temp->info.medie > medieMax) {
+			medieMax = temp->info.medie;
+		}
+		temp = temp->next;
+	}
+	if (medieMax > 0) {
+		return medieMax;
+	}
+	else {
+		return 0;
+	}
+}
+
+//stergere student dupa nume
+void stergereStudentDupaNume(NodLD** capLD, NodLD** coadaLD, const char* nume) {
+	if (strcmp((*capLD)->info.nume, nume) == 0) {
+		NodLD* deSters = (*capLD);
+		(*capLD) = (*capLD)->next;
+		if ((*capLD) != NULL) {
+			(*capLD)->prev = NULL;
+		}
+		free(deSters->info.nume);
+		free(deSters);
+		return;
+	}
+	else {
+		if (strcmp((*coadaLD)->info.nume, nume) == 0) {
+			NodLD* deSters = (*coadaLD);
+			(*coadaLD) = (*coadaLD)->prev;
+			if ((*coadaLD) != NULL) {
+				(*coadaLD)->next = NULL;
+			}
+			free(deSters->info.nume);
+			free(deSters);
+			return;
+		}
+		else {
+			NodLD* deSters = (*capLD);
+			while (deSters != NULL) {
+				if (strcmp(deSters->info.nume, nume) == 0) {
+					NodLD* anterior = deSters->prev;
+					NodLD* urmator = deSters->next;
+					anterior->next = urmator;
+					urmator->prev = anterior;
+					free(deSters->info.nume);
+					free(deSters);
+					return;
+				}
+				else {
+					deSters = deSters->next;
+				}
+			}
+		}
+	}
+}
+
+
 
 
 void main() {
@@ -120,7 +241,13 @@ void main() {
 	printf("\n-------------Traversare inversa--------------\n");
 	traversareLDinvers(coadaLD);
 
+	printf("\n-------------------ADAUGARE SFARSIT-------------------\n");
+	capLD = adaugareStudentSfarsit(capLD, &coadaLD, 22, "David", 7);
+	traversareLD(capLD);
 
+	printf("\n------------------ADAUGARE INCEPUT--------------------\n");
+	capLD = adaugaStudentInceput(capLD, &coadaLD, 20, "Bogdan", 10);
+	traversareLD(capLD);
 
 	printf("-----------------------VECTOR--------------------------\n");
 	Student* vectorStudenti = (Student*)malloc(nrStudenti * sizeof(Student));
@@ -134,6 +261,18 @@ void main() {
 		free(vectorStudenti[i].nume);
 	}
 	free(vectorStudenti);
+
+	float medie;
+	medie = mediaMediilor(capLD);
+	printf("\nMedia mediilor: %.2f\n", medie);
+
+	float medieMaxima;
+	medieMaxima = medieMax(capLD);
+	printf("\nMedia maxima a unui student este: %.2f\n", medieMaxima);
+
+	printf("\n-------------------------------STERGERE STUDENT---------------------------\n");
+	stergereStudentDupaNume(&capLD, &coadaLD, "Bogdan");
+	traversareLD(capLD);
 
 	dezalocareLD(capLD);
 }*/
@@ -223,6 +362,138 @@ void salvareMasiniInVectorCuPretMare(NodLD* capLD, Masina* vectMasini, int* nrEl
 	}
 }
 
+//adaugare Masina la sfarsit
+NodLD* adaugaMasinaLaSfarsit(NodLD* capLD, NodLD** coadaLD, int id, int nrUsi, float pret, const char* model) {
+	Masina masina;
+
+	masina.id = id;
+	masina.nrUsi = nrUsi;
+	masina.pret = pret;
+	masina.model = (char*)malloc((strlen(model) + 1) * sizeof(char));
+	strcpy(masina.model, model);
+
+	NodLD* nodNou = initializareNodLD(masina);
+	if (capLD == NULL) {
+		capLD = nodNou;
+		(*coadaLD) = nodNou;
+	}
+	else {
+		(*coadaLD)->next = nodNou;
+		nodNou->prev = (*coadaLD);
+		(*coadaLD) = nodNou;
+	}
+	free(masina.model);
+	return capLD;
+}
+
+//adaugare Masina la inceput
+NodLD* adaugaMasinaInceput(NodLD* capLD, NodLD** coadLD, int id, int nrUsi, float pret, const char* model) {
+	Masina masina;
+
+	masina.id = id;
+	masina.nrUsi = nrUsi;
+	masina.pret = pret;
+	masina.model = (char*)malloc((strlen(model) + 1) * sizeof(char));
+	strcpy(masina.model, model);
+
+	NodLD* nodNou = initializareNodLD(masina);
+	
+	nodNou->prev = NULL;
+	nodNou->next = capLD;
+
+	if (capLD != NULL) {
+		capLD->prev = nodNou;
+	}
+	else {
+		(*coadLD) = nodNou;
+	}
+	free(masina.model);
+	capLD = nodNou;
+	return capLD;
+}
+
+//sa se se faca media usilor masinilor
+float mediaUsiMasini(NodLD* capLD) {
+	int valoare = 0;
+	int contor = 0;
+
+	NodLD* temp = capLD;
+	while (temp != NULL) {
+		valoare += temp->info.nrUsi;
+		contor++;
+		temp = temp->next;
+	}
+	if (valoare > 0) {
+		return valoare / contor;
+	}
+	else {
+		return 0;
+	}
+}
+
+//sa se afiseze numele modelului cel mai scump
+char* afiseazaNumeModelScump(NodLD* capLD) {
+	float pretMax = 0.0;
+	char* numeModel = NULL;
+	NodLD* temp = capLD;
+	while (temp != NULL) {
+		if (temp->info.pret > pretMax) {
+			numeModel = temp->info.model;
+			pretMax = temp->info.pret;
+		}
+		temp = temp->next;
+	}
+	if (pretMax > 0) {
+		return numeModel;
+	}
+	else {
+		return "Nu exista masini.";
+	}
+}
+
+//stergere masina dupa nume
+void stergereMasinaDupaNume(NodLD** capLD, NodLD** coadaLD, const char* modelMasina) {
+	if (strcmp((*capLD)->info.model, modelMasina) == 0) {
+		NodLD* deSters = (*capLD);
+		(*capLD) = (*capLD)->next;
+		if ((*capLD) != NULL) {
+			(*capLD)->prev = NULL;
+		}
+		free(deSters->info.model);
+		free(deSters);
+		return;
+	}
+	else {
+		NodLD* deSters = (*coadaLD);
+		if (strcmp((*coadaLD)->info.model, modelMasina) == 0) {
+			(*coadaLD) = (*coadaLD)->prev;
+			if ((*coadaLD) != NULL) {
+				(*coadaLD)->next = NULL;
+			}
+			free(deSters->info.model);
+			free(deSters);
+			return;
+		}
+		else {
+			NodLD* deSters = (*capLD);
+			while (deSters != NULL) {
+				if (strcmp(deSters->info.model, modelMasina) == 0) {
+					NodLD* anterior = deSters->prev;
+					NodLD* urmator = deSters->next;
+					anterior->next = urmator;
+					urmator->prev = anterior;
+					free(deSters->info.model);
+					free(deSters);
+					return;
+				}
+				else {
+					deSters = deSters->next;
+				}
+			}
+		}
+	}
+}
+
 void main() {
 	NodLD* capLD = NULL;
 	NodLD* coadaLD = NULL;
@@ -261,7 +532,25 @@ void main() {
 	}
 	free(vectMasini);
 
-	
+	printf("\n-----------------ADAUGARE SFARSIT----------------------\n");
+	capLD = adaugaMasinaLaSfarsit(capLD, &coadaLD, 222, 2, 1010, "Cielo");
+	traversareNodLD(capLD);
+
+	printf("\n------------------ADAUGARE INCEPUT---------------------\n");
+	capLD = adaugaMasinaInceput(capLD, &coadaLD, 9900, 3, 56767, "Duster");
+	traversareNodLD(capLD);
+
+	float medie;
+	medie = mediaUsiMasini(capLD);
+	printf("Media usilor este %.2f\n", medie);
+
+	char* nume;
+	nume = afiseazaNumeModelScump(capLD);
+	printf("Modelul cel mai scump este: %s", nume);
+
+	printf("\n-----------------------------STERGERE MASINA DUPA NUME-------------------------\n");
+	stergereMasinaDupaNume(&capLD, &coadaLD, "Logan");
+	traversareNodLD(capLD);
 
 	dezalocare(capLD);
 }*/
@@ -352,7 +641,7 @@ NodLD* adaugaEchipaFotbalFinal(NodLD* capLD, NodLD** coadLD, const char* numeEch
 	NodLD* nodNou = initializareLD(echipa);
 
 	if (capLD == NULL) {
-		nodNou = capLD;
+		capLD = nodNou;
 		(*coadLD) = nodNou;
 	}
 	else {
@@ -386,13 +675,96 @@ NodLD* adaugareEchipaFotbalInceput(NodLD* capLD, NodLD** coadaLD, const char* nu
 	else {
 		(*coadaLD) = nodNou;      
 	}
-
+	free(echipa.numeEchipa);
 	capLD = nodNou;
 	return capLD;
 
 }
 
-//calcul venit mediu
+//sa se arate nr mediu de jucatori ale echipelor
+float medieNrJucatori(NodLD* capLD) {
+	int nrJuc = 0;
+	int contor = 0;
+
+	NodLD* temp = capLD;
+
+	while (temp) {
+		nrJuc += temp->info.nrJucatori;
+		contor++;
+		temp = temp->next;
+	}
+	if (nrJuc > 0) {
+		return nrJuc / contor;
+	}
+	else {
+		return 0;
+	}
+}
+
+//sa se arate numele echipei cu venitul cel mai mare
+char* arataNumeEchipaScumpa(NodLD* capLD) {
+	char* numeEchipa = NULL;
+	float venitMax = 0.0;
+
+	NodLD* temp = capLD;
+
+	while (temp != NULL) {
+		if (temp->info.venit > venitMax) {
+			venitMax = temp->info.venit;
+			numeEchipa = temp->info.numeEchipa;
+		}
+		temp = temp->next;
+	}
+	if (venitMax > 0) {
+		return numeEchipa;
+	}
+	else {
+		return NULL;
+	}
+}
+
+//stergere echipa de fotbal dupa nr de jucatori
+void stergereEchipaDupaNrJucatori(NodLD** capLD, NodLD** coadaLD, int nrJucatori) {
+	if ((*capLD)->info.nrJucatori == nrJucatori) {
+		NodLD* deSters = (*capLD);
+		(*capLD) = (*capLD)->next;
+		if ((*capLD) != NULL) {
+			(*capLD)->prev = NULL;
+		}
+		free(deSters->info.numeEchipa);
+		free(deSters);
+		return;
+	}
+	else {
+		if ((*coadaLD)->info.nrJucatori == nrJucatori) {
+			NodLD* deSters = (*coadaLD);
+			(*coadaLD) = (*coadaLD)->prev;
+			if ((*coadaLD) != NULL) {
+				(*coadaLD)->next = NULL;
+			}
+			free(deSters->info.numeEchipa);
+			free(deSters);
+			return;
+		}
+		else {
+			NodLD* deSters = (*capLD);
+			while (deSters != NULL) {
+				if (deSters->info.nrJucatori == nrJucatori) {
+					NodLD* anterior = deSters->prev;
+					NodLD* urmator = deSters->next;
+					anterior->next = urmator;
+					urmator->prev = anterior;
+					free(deSters->info.numeEchipa);
+					free(deSters);
+					return;
+				}
+				else {
+					deSters = deSters->next;
+				}
+			}
+		}
+	}
+}
 
 void main() {
 	NodLD* capLD = NULL;
@@ -420,12 +792,29 @@ void main() {
 	}
 	fclose(f);
 
-	capLD = adaugaEchipaFotbalFinal(capLD, &coadaLD, "Farul", 44, 12091);
-	capLD = adaugareEchipaFotbalInceput(capLD, &coadaLD, "CFRcluj", 33, 1265216);
-
 	traversareLD(capLD);
 	printf("---------------------TRAVERSARE INVERSA---------------------\n");
 	traversareInversaLD(coadaLD);
+
+	printf("\n------------------------ADAUGARE SFARSIT----------------------\n");
+	capLD = adaugaEchipaFotbalFinal(capLD, &coadaLD, "Farul", 44, 12091);
+	traversareLD(capLD);
+
+	printf("\n------------------------ADAUGARE INCEPUT----------------------\n");
+	capLD = adaugareEchipaFotbalInceput(capLD, &coadaLD, "CFRcluj", 33, 1265216);
+	traversareLD(capLD);
+
+	float medieJuc;
+	medieJuc = medieNrJucatori(capLD);
+	printf("\nMedia jucatorilor este: %.2f", medieJuc);
+
+	char* numeEchip;
+	numeEchip = arataNumeEchipaScumpa(capLD);
+	printf("\nNumeleEchipei cea mai scumpa este: %s", numeEchip);
+
+	printf("\n----------------------------STERGERE ECHIPA DUPA NR JUCATORI------------------\n");
+	stergereEchipaDupaNrJucatori(&capLD, &coadaLD, 20);
+	traversareLD(capLD);
 
 	dezalocareLD(capLD);
 }

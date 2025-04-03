@@ -1,0 +1,6 @@
+﻿  ListaDubla.c
+C:\Users\Simionescu Alexandru\source\repos\SablonListaDubla\SablonListaDubla\ListaDubla.c(22,38): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\source\repos\SablonListaDubla\SablonListaDubla\ListaDubla.c(23,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\source\repos\SablonListaDubla\SablonListaDubla\ListaDubla.c(148,18): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+C:\Users\Simionescu Alexandru\source\repos\SablonListaDubla\SablonListaDubla\ListaDubla.c(177,6): warning C4013: 'strcmp' undefined; assuming extern returning int
+  SablonListaDubla.vcxproj -> C:\Users\Simionescu Alexandru\source\repos\SablonListaDubla\x64\Debug\SablonListaDubla.exe
