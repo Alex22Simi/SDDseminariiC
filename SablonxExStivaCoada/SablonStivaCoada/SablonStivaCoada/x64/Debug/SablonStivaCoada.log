@@ -1,0 +1,11 @@
+﻿  SablonStivaCoada.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\SablonxExStivaCoada\SablonStivaCoada\SablonStivaCoada\SablonStivaCoada.c(32,50): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\SablonxExStivaCoada\SablonStivaCoada\SablonStivaCoada\SablonStivaCoada.c(33,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\SablonxExStivaCoada\SablonStivaCoada\SablonStivaCoada\SablonStivaCoada.c(137,13): warning C4047: 'function': 'NodCoada **' differs in levels of indirection from 'NodCoada *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\SablonxExStivaCoada\SablonStivaCoada\SablonStivaCoada\SablonStivaCoada.c(137,13): warning C4024: 'get': different types for formal and actual parameter 1
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\SablonxExStivaCoada\SablonStivaCoada\SablonStivaCoada\SablonStivaCoada.c(137,19): warning C4047: 'function': 'NodCoada **' differs in levels of indirection from 'NodCoada *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\SablonxExStivaCoada\SablonStivaCoada\SablonStivaCoada\SablonStivaCoada.c(137,19): warning C4024: 'get': different types for formal and actual parameter 2
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\SablonxExStivaCoada\SablonStivaCoada\SablonStivaCoada\SablonStivaCoada.c(152,8): warning C4047: 'function': 'NodStiva **' differs in levels of indirection from 'NodStiva ***'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\SablonxExStivaCoada\SablonStivaCoada\SablonStivaCoada\SablonStivaCoada.c(152,8): warning C4024: 'push': different types for formal and actual parameter 1
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\SablonxExStivaCoada\SablonStivaCoada\SablonStivaCoada\SablonStivaCoada.c(121): warning C4715: 'get': not all control paths return a value
+  SablonStivaCoada.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\SablonxExStivaCoada\SablonStivaCoada\x64\Debug\SablonStivaCoada.exe
