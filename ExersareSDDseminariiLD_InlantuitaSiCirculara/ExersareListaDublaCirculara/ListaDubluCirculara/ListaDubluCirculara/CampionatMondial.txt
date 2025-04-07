@@ -1,0 +1,6 @@
+5
+Argentina 10 B
+Romania 4 D
+Franta 2 C
+Anglia 8 A
+Brazilia 11 E

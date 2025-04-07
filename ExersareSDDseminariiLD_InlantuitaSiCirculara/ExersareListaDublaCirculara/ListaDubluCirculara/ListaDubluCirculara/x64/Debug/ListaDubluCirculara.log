@@ -1,0 +1,5 @@
+﻿  ListaDubluCirculara.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareSDDseminariiLD\ExersareListaDublaCirculara\ListaDubluCirculara\ListaDubluCirculara\ListaDubluCirculara.c(322,46): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareSDDseminariiLD\ExersareListaDublaCirculara\ListaDubluCirculara\ListaDubluCirculara\ListaDubluCirculara.c(323,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareSDDseminariiLD\ExersareListaDublaCirculara\ListaDubluCirculara\ListaDubluCirculara\ListaDubluCirculara.c(382,6): warning C4013: 'strcmp' undefined; assuming extern returning int
+  ListaDubluCirculara.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareSDDseminariiLD\ExersareListaDublaCirculara\ListaDubluCirculara\x64\Debug\ListaDubluCirculara.exe

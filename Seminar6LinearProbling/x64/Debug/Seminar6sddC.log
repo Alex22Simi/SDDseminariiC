@@ -1,0 +1,4 @@
+﻿  tabela_linear_probing.c
+C:\Users\Simionescu Alexandru\source\repos\Seminar6sddC\Seminar6sddC\tabela_linear_probing.c(117,29): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\source\repos\Seminar6sddC\Seminar6sddC\tabela_linear_probing.c(118,3): warning C4013: 'strcpy' undefined; assuming extern returning int
+  Seminar6sddC.vcxproj -> C:\Users\Simionescu Alexandru\source\repos\Seminar6sddC\x64\Debug\Seminar6sddC.exe

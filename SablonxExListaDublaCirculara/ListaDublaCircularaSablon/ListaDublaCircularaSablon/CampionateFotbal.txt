@@ -1,0 +1,5 @@
+4
+SuperLiga 18 20000
+PremierLeague 20 33
+Ligue1 15 27
+Bundesliga 20 29

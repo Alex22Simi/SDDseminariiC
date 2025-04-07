@@ -1,0 +1,6 @@
+5
+Romania 0 0
+Argentina 3 16
+Brazilia 5 9
+Italia 4 2
+RomaniaU21 0 1
