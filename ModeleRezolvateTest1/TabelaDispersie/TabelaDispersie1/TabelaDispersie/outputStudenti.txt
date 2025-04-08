@@ -1,0 +1,26 @@
+
+Pozitia: 0
+Cod: 4
+Nume: Alex
+Varsta: 23
+Medie: 3.30
+
+
+Pozitia: 1
+Cod: 1
+Nume: Maria
+Varsta: 22
+Medie: 8.70
+
+Cod: 5
+Nume: Matei
+Varsta: 22
+Medie: 5.70
+
+
+Pozitia: 2
+Cod: 2
+Nume: Alin
+Varsta: 21
+Medie: 7.80
+

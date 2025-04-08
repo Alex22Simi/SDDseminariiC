@@ -1,0 +1,15 @@
+﻿(3 p)
+1. Să se construiască și să se afișeze o listă simplă cu n noduri conținând informații despre agențiile unei bănci. 
+Informațiile aferente nodurilor sunt citite dintr-un fișier text.
+
+(2 p)
+2. Să se scrie funcția pentru ștergerea agențiilor cu coduri impare din lista simplă cu n agenții ale unei bănci,
+iar agențiile cu coduri pare să se salveze într-un fișier text.
+
+(3 p)
+3. Să se realizeze conversia elementelor din lista simplă anterioară într-o structură de tip listă de liste,
+prin gruparea elementelor inițiale după un criteriu la alegere.
+
+(2 p)
+4. Să se dezaloce toate structurile de date dinamice construite. Operația de dezalocare va fi însoțită
+de afișarea conținutului structurilor în fișiere text, înainte de dezalocarea memoriei heap.

@@ -1,0 +1,14 @@
+1. (3p) S? se construiasc? ?i s? se afi?eze o tabel? de dispersie cu n elemente având informa?ii
+utile de tip “student”, cu atributele: cod (int), nume (char*), vârst? (int), medie (float).
+Informa?iile aferente studen?ilor sunt citite dintr-un fi?ier text, iar mecanismul
+de evitare a coliziunilor în tabela de dispersie este chaining.
+
+2. (2p) S? se scrie func?ia pentru ?tergerea studentului cu cea mai mare medie din tabela de dispersie.
+
+3. (3p) S? se realizeze conversia elementelor din tabela de dispersie anterioar? într-o structur?
+de tip list? de liste prin gruparea elementelor ini?iale la nivel de medie
+(studen?ii cu medie peste 5 într-o sublist?, iar cei cu medie sub 5 în alt? sublist?).
+
+4. (2p) S? se dezaloce toate structurile de date dinamice construite.
+Opera?ia de dezalocare va fi înso?it? de afi?area con?inutului structurilor în 
+fi?iere text, înainte de dezalocarea memoriei heap.

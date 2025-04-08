@@ -1,0 +1,4 @@
+﻿  ListaDeListe.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareHashTableAndListaDeListe\ListaDeListe\ListaDeListe\ListaDeListe\ListaDeListe.c(149,37): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareHashTableAndListaDeListe\ListaDeListe\ListaDeListe\ListaDeListe\ListaDeListe.c(150,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  ListaDeListe.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareHashTableAndListaDeListe\ListaDeListe\ListaDeListe\x64\Debug\ListaDeListe.exe

@@ -1,0 +1,4 @@
+﻿  SablonListaDeListe.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\SablonxListaDeListe\SablonListaDeListe\SablonListaDeListe\SablonListaDeListe.c(21,37): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\SablonxListaDeListe\SablonListaDeListe\SablonListaDeListe\SablonListaDeListe.c(22,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  SablonListaDeListe.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\SablonxListaDeListe\SablonListaDeListe\x64\Debug\SablonListaDeListe.exe

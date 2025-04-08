@@ -1,0 +1,4 @@
+﻿  TabelaDispersie.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest1\TabelaDispersie\TabelaDispersie\TabelaDispersie\TabelaDispersie.c(34,37): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest1\TabelaDispersie\TabelaDispersie\TabelaDispersie\TabelaDispersie.c(35,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  TabelaDispersie.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest1\TabelaDispersie\TabelaDispersie\x64\Debug\TabelaDispersie.exe

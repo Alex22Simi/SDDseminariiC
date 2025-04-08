@@ -1,0 +1,4 @@
+﻿  TabelaDeDispersie.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareHashTableAndListaDeListe\HashTable\HashTable\TabelaDeDispersie.c(33,37): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareHashTableAndListaDeListe\HashTable\HashTable\TabelaDeDispersie.c(34,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  HashTable.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ExersareHashTableAndListaDeListe\HashTable\x64\Debug\HashTable.exe
