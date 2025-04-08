@@ -1,0 +1,4 @@
+﻿  ListaDubluLiniara.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest1\ListaDubluLiniara\ListaDubluLiniaraTest1\ListaDubluLiniaraTest1\ListaDubluLiniara.c(26,37): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest1\ListaDubluLiniara\ListaDubluLiniaraTest1\ListaDubluLiniaraTest1\ListaDubluLiniara.c(27,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  ListaDubluLiniaraTest1.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest1\ListaDubluLiniara\ListaDubluLiniaraTest1\x64\Debug\ListaDubluLiniaraTest1.exe

@@ -1,0 +1,17 @@
+﻿Să se construiască și să se afișeze o listă dublu liniară cu n noduri conținând informații
+despre studenții unei facultăți. Informațiile aferente nodurilor sunt citite dintr-un fișier text.
+Fiecare student are un cod numeric (int), nume (char*)*, medie (float), precum și alte două câmpuri la alegere.
+
+(2 p)
+2. Să se scrie funcția pentru ștergerea din lista dublu liniară a studentului/studentilor
+cu media/mediile cuprinse între două valori prag specificate ca parametri.
+
+(3 p)
+3. Să se scrie funcția pentru salvarea elementelor din lista dublu liniară
+într-o structură de tip listă de liste, prin gruparea elementelor inițiale după un criteriu la alegere.
+
+(2 p)
+4. Să se dezalocă toate structurile de date dinamice construite.
+Operația de dezalocare va fi însoțită de afișarea conținutului
+structurilor la consolă, înainte de dezalocarea memoriei heap.
+

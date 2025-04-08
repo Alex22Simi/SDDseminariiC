@@ -1,0 +1,4 @@
+﻿  Coada.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest1\Coada\Coada1\Coada\Coada\Coada.c(24,39): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest1\Coada\Coada1\Coada\Coada\Coada.c(25,5): warning C4013: 'strcpy' undefined; assuming extern returning int
+  Coada.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest1\Coada\Coada1\Coada\x64\Debug\Coada.exe

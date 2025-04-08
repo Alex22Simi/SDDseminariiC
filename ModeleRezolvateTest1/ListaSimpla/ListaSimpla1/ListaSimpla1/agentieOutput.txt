@@ -1,0 +1,9 @@
+Sublista 1:
+Cod: 2, Nume: BNR
+Cod: 4, Nume: CEC
+
+Sublista 2:
+Cod: 1, Nume: BCR
+Cod: 3, Nume: Unicredit
+Cod: 5, Nume: MasterCard
+

@@ -1,0 +1,6 @@
+5
+25 Maria 14 6
+30 Andrei 2 12
+22 Ana 7 1
+21 Mihai 6 6
+50 Emil  5 6

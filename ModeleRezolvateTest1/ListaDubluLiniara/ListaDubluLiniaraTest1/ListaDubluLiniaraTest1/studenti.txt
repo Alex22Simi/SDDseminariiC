@@ -1,0 +1,7 @@
+6
+12538916 Simionescu 9 21 1
+13889892 Ionescu 8.6 22 2
+24724788 Popescu 3.3 20 5
+37635598 Florescu 4.3 23 3
+58353373 Mirciulescu 7 19 1
+87338735 Nanulescu 9.9 21 0

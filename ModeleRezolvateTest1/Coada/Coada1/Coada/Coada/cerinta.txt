@@ -1,0 +1,15 @@
+﻿1. Sa se contruiasca si sa se afiseze o structura de tip coada ale carei informatii utile sunt articole de tip 
+"persoana", avand atribute precum varsta(int), nume(char*), precum si alte doua campuri la alegere.
+Informatiile aferente nodurilor sunt citite dintr-un fisier text.
+2. Se considera o a doua coada de persoane cu date preluate de la consola,
+Sa se scrie functia pentru impletirea a doua cozi ale caror informatii
+utile sunt articolele de tip "persoana" si sa se salveze intr-o a 
+treia coada elementele structurii rezultata in urma implementarii.
+3. Sa se scrie functia pentru salvarea din coada dee articole de tip 
+"persoana" (rezultata la pct 2) intr-o stiva de articole de tip "persoana"
+a persoanelor care indeplinesc un criteriu la alegere. Sa se numere din stiva 
+rezultata cate persoane au varta peste un prag specificat ca parametru.
+
+Sa se dezaloce toate structurile de date dinamice construite.
+Operatia de dezalocare va fi insotita de afisarea continutului 
+struturilor la consola, inainte de dezalocarea memoriei heap.
