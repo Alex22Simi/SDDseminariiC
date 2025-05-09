@@ -1,0 +1,4 @@
+﻿  ABC.c
+D:\ArboreBinarCautare\ArboreBinarDeCautare\ArboreBinarDeCautare\ABC.c(195,40): warning C4013: 'strlen' undefined; assuming extern returning int
+D:\ArboreBinarCautare\ArboreBinarDeCautare\ArboreBinarDeCautare\ABC.c(196,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  ArboreBinarDeCautare.vcxproj -> D:\ArboreBinarCautare\ArboreBinarDeCautare\x64\Debug\ArboreBinarDeCautare.exe

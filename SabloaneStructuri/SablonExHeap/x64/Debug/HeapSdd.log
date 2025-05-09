@@ -1,0 +1,4 @@
+﻿  FileName.c
+D:\ExersareHeapSdd\HeapSdd\HeapSdd\FileName.c(397,35): warning C4013: 'strlen' undefined; assuming extern returning int
+D:\ExersareHeapSdd\HeapSdd\HeapSdd\FileName.c(398,3): warning C4013: 'strcpy' undefined; assuming extern returning int
+  HeapSdd.vcxproj -> D:\ExersareHeapSdd\HeapSdd\x64\Debug\HeapSdd.exe

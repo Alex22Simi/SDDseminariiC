@@ -1,0 +1,22 @@
+﻿  Seminar10.c
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(216,37): warning C4013: 'strlen' undefined; assuming extern returning int
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(217,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(222,14): warning C4133: '=': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(223,15): warning C4133: '=': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(233,33): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(233,16): warning C4133: '=': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(239,35): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(239,18): warning C4133: '=': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(257,16): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(258,16): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(267,15): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(271,15): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(280,17): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(281,17): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(303,17): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(304,17): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(325,27): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(326,27): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(335,21): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+D:\SeminarSapt10SDD\SeminarSapt10SDDc\SeminarSapt10SDDc\Seminar10.c(336,21): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+  SeminarSapt10SDDc.vcxproj -> D:\SeminarSapt10SDD\SeminarSapt10SDDc\x64\Debug\SeminarSapt10SDDc.exe

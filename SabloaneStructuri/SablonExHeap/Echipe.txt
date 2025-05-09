@@ -1,0 +1,6 @@
+5
+2 Barcelona
+1 Rapid
+22 PSG
+15 Inter
+17 Arsenal
