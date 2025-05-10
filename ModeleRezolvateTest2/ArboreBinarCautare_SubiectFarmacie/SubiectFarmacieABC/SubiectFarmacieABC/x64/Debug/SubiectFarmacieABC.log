@@ -1,0 +1,9 @@
+﻿  Source.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectFarmacie\SubiectFarmacieABC\SubiectFarmacieABC\Source.c(27,38): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectFarmacie\SubiectFarmacieABC\SubiectFarmacieABC\Source.c(28,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectFarmacie\SubiectFarmacieABC\SubiectFarmacieABC\Source.c(104,7): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectFarmacie\SubiectFarmacieABC\SubiectFarmacieABC\Source.c(172,9): warning C4133: '=': incompatible types - from 'NodLista *' to 'NodListaSimpla *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectFarmacie\SubiectFarmacieABC\SubiectFarmacieABC\Source.c(174,14): warning C4133: '=': incompatible types - from 'NodListaSimpla *' to 'NodLista *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectFarmacie\SubiectFarmacieABC\SubiectFarmacieABC\Source.c(193,8): warning C4133: '=': incompatible types - from 'NodLista *' to 'NodListaSimpla *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectFarmacie\SubiectFarmacieABC\SubiectFarmacieABC\Source.c(201,19): warning C4133: 'initializing': incompatible types - from 'NodLista *' to 'NodListaSimpla *'
+  SubiectFarmacieABC.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectFarmacie\SubiectFarmacieABC\x64\Debug\SubiectFarmacieABC.exe

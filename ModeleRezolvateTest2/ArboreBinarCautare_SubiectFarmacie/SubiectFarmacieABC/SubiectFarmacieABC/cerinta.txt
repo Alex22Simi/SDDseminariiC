@@ -1,0 +1,47 @@
+Bilet 6
+
+Implementa?i o aplica?ie în limbajul C ce rezolv? probleme de gestionare regional? a unor farmacii.
+
+Defini?i structura Farmacie ce con?ine:
+
+id_farmacie (unsigned short int)
+
+denumire farmacie (char*)
+
+cifr? afaceri anual? (float)
+
+nume farmacist ?ef (char*)
+
+nr angaja?i (unsigned char)
+
+localitate (char*)
+
+Crea?i un arbore binar de c?utare cu cel pu?in 5 farmacii ale c?ror date sunt preluate dintr-un fi?ier text. 
+Crearea structurii se realizeaz? prin apel repetat al unei func?ii de inserare, iar cheia de c?utare
+în structur? este id_farmacie. (2 p)
+
+Implementa?i func?ia care determin? num?rul total de angaja?i la farmaciile dintr-o anumit? localitate. 
+Specifica?i ca parametru al func?iei localitatea. Func?ia este apelat? în func?ia main(),
+iar rezultatul apelului se afi?eaz? în consola de execu?ie a aplica?iei. (1 p)
+
+Implementa?i func?ia care determin? cifra de afaceri medie lunar? pentru o farmacie
+specificat? prin id ca parametru al func?iei. Func?ia este apelat? în main()
+?i rezultatul apelului se afi?eaz? în consola de execu?ie a aplica?iei. (1 p)
+
+Implementa?i func?ia care ?terge toate nodurile frunz? din structura arborescent?,
+plasate pe un nivel specificat ca parametru al func?iei. Func?ia implementat? se apeleaz? în main(), 
+iar arborele se afi?eaz? în inordine în consola de execu?ie a aplica?iei. (2,5 p)
+
+Implementa?i func?ia care salveaz? într-o list? simpl? toate valorile de tip id_farmacie,
+plasate pe un nivel specificat ca parametru al func?iei. Func?ia este apelat? în main(),
+iar rezultatul apelului (lista simpl?) se afi?eaz? în consola de execu?ie a aplica?iei. (2,5 p)
+
+Urm?toarele aspecte trebuie considerate cu privire la implementare:
+
+Punctul din oficiu se va aduna separat.
+
+Nota minim? de promovare este 5.
+
+Func?iile implementate se refer? la structura specificat? în acest bilet.
+
+Implementarea NU determin? apari?ia de memory leaks pentru opera?iile specificate în cerin?e.

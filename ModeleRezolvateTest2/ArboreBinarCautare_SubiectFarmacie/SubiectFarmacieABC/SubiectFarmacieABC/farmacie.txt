@@ -1,0 +1,6 @@
+5
+12 Catena 198.3 Mircea 5 Craiova
+98 George 200.4 Ionescu 6 Calimanesti
+22 Tei 300.5 Marcel 10 Bucuresti
+10 Spring 222.1 Matei 4 Bucuresti
+5 DrMax 150.3 Max 11 Cluj
