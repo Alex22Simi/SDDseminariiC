@@ -1,0 +1,33 @@
+﻿Bilet 11 ……………………………………………………………………… / (120 min) 10 Iunie 2023
+
+Implementați o aplicație în limbajul C ce rezolvă probleme de gestionare a fotografiilor personale.
+
+Definiți structura Fotografie ce conține: idFotografie (unsigned int), orașul unde a fost realizată (char*), data realizării fotografiei (ex: char*), rezoluția fotografiei (float – 120 - 600 dpi).
+
+Creați un arbore binar de căutare cu cel puțin 8 fotografii ale căror date sunt preluate dintr-un fișier text. Crearea structurii se realizează prin apel repetat al unei funcții de inserare, iar cheia de căutare în structură este id-ul fotografiei. În funcția main apelați o singură funcție care realizează și citirea și crearea structurii.
+(1 punct)
+
+Implementați funcția care determină numărul de fotografii realizate în același oraș. Numele orașului este specificat ca parametru de intrare al funcției. Funcția implementată se apelează în funcția main(), iar rezultatul apelului se afișează în consola de execuție a aplicației.
+(1 punct)
+
+Implementați funcția care modifică data realizării unei fotografii specificată prin id fotografie în lista de parametri ai funcției. Noua dată este specificată, de asemenea, în lista de parametri ai funcției. Funcția implementată se apelează în funcția main(), iar rezultatul apelului se validează prin traversarea în inordine a structurii arborescente.
+(1 punct)
+
+Implementați funcția care șterge nodul rădăcină din structura arborescentă creată mai sus. Funcția implementată se apelează în funcția main(), iar rezultatul apelului se validează prin traversarea în inordine a structurii arborescente.
+(1,5 puncte)
+
+Implementați funcția care returnează un vector cu fotografiile care au o rezoluție primită ca parametru de intrare al funcției. Datele sunt preluate din structura arborescentă creată mai sus și nu sunt partajate zone de memorie heap între cele două structuri (arbore și vector). Funcția implementată se apelează în funcția main(), iar rezultatul apelului (vector) se afișează în consola de execuție a aplicației.
+(1,5 puncte)
+
+Următoarele aspecte trebuie considerate cu privire la implementare:
+
+Funcțiile implementate se referă la structura specificată în acest bilet.
+
+Implementarea NU determină apariția de memory leaks pentru operațiile specificate în cerințe.
+
+Funcțiile implementate NU conțin apeluri de funcții standard privind operații de I/O cu dispozitive standard (ex: printf, scanf etc.). Excepții: funcția main(), funcții de traversare structuri.
+
+Funcțiile implementate care nu sunt apelate în funcția main() NU vor face obiectul evaluării.
+
+Secvențele de cod sursă comentate NU vor face obiectul evaluării.
+
