@@ -1,0 +1,26 @@
+﻿  FileName.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(22,34): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(23,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(26,14): warning C4133: '=': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(27,15): warning C4133: '=': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(37,33): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(37,16): warning C4133: '=': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(43,35): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(43,18): warning C4133: '=': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(60,16): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(61,16): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(70,15): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(73,15): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(82,17): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(83,17): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(104,17): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(105,17): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(117,23): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(118,23): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(135,25): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(136,25): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(151,38): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(152,22): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(168,26): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\SeminarSapt12SDD\FileName.c(169,26): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+  SeminarSapt12SDD.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar11AVLOperatii2\SeminarSapt12SDD\x64\Debug\SeminarSapt12SDD.exe

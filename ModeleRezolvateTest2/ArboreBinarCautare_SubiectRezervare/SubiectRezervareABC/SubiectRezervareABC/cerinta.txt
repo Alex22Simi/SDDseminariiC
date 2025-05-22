@@ -1,0 +1,32 @@
+﻿Implementați o aplicație în limbajul C ce rezolvă probleme de gestionare a unor rezervări hoteliere.
+
+Definiți structura Rezervare ce conține:
+
+număr rezervare (unsigned int),
+
+denumire hotel (char*),
+
+număr camere rezervate (unsigned char),
+
+nume client (char*),
+
+data rezervare (ex. char*).
+
+Creați un arbore binar de căutare cu datele a cel puțin 5 rezervări preluate dintr-un fișier text. Crearea structurii se realizează prin apel repetat al unei funcții de inserare în arbore, iar cheia de căutare în structură este număr rezervare. (1p)
+
+Implementați funcția care determină rezervarea cu numărul maxim de camere.
+Funcția întoarce în apelator prima apariție a rezervării cu număr maxim de camere.
+Funcția implementată se apelează în funcția main(), iar rezultatul apelului (Rezervare) se afișează în consola de execuție a aplicației. (1p)
+
+Implementați funcția care modifică numărul de camere al unei rezervări specificată prin număr rezervare în lista de parametri ai funcției. Noua valoare este, de asemenea, parametru al funcției.
+Funcția implementată se apelează în funcția main(), iar rezultatul apelului se validează prin căutarea rezervării pe baza de număr rezervare în structura arborescentă. (1p)
+
+Implementați funcția care determină numărul de noduri din structura arborescentă creată mai sus.
+Funcția implementată se apelează în funcția main(), iar rezultatul apelului (număr noduri) se afișează în consola de execuție a aplicației. (1p)
+
+Implementați funcția care returnează un vector de rezervări plasate pe drumul de la nodul rădăcină până la un anumit nod specificat prin număr rezervare în lista de parametri ai funcției.
+Datele sunt preluate din structura arbore.
+NU sunt alocate zone de memorie heap între cele două structuri (arbore și vector).
+Funcția implementată se apelează în funcția main(), iar rezultatul apelului (vector) se afișează în consola de execuție a aplicației. (1,5p)
+
+Dezalocați toate zonele de memorie heap alocate și utilizate în cadrul cerințelor de mai sus. (0,5p)

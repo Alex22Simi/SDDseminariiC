@@ -1,0 +1,4 @@
+﻿  Grafuri.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar12Grafuri\Grafuri\Grafuri\Grafuri.c(17,13): warning C4133: '=': incompatible types - from 'nodStiva *' to 'nodStiva *'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar12Grafuri\Grafuri\Grafuri\Grafuri.c(29,9): warning C4133: '=': incompatible types - from 'nodStiva *' to 'nodStiva *'
+  Grafuri.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar12Grafuri\Grafuri\x64\Debug\Grafuri.exe

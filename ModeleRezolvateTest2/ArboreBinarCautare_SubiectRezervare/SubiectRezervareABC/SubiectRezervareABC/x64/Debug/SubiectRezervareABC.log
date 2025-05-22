@@ -1,0 +1,4 @@
+﻿  SubiectRezervare.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectRezervare\SubiectRezervareABC\SubiectRezervareABC\SubiectRezervare.c(22,43): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectRezervare\SubiectRezervareABC\SubiectRezervareABC\SubiectRezervare.c(23,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  SubiectRezervareABC.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectRezervare\SubiectRezervareABC\x64\Debug\SubiectRezervareABC.exe

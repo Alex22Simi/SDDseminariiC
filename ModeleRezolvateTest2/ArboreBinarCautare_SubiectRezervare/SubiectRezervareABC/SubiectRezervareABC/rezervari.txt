@@ -1,0 +1,6 @@
+5
+3 Cozia 2 Ionescu 14.07.2022
+15 Calimanesti 3 Popescu 22.07.2023
+12 Caciulata 1 Marcel 11.01.2019
+2 Valcea 4 Simionescu 10.06.2024
+4 Brasov 2 Neacsu 24.03.2025
