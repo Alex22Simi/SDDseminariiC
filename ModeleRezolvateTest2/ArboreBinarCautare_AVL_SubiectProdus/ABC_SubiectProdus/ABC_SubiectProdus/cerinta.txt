@@ -1,0 +1,30 @@
+﻿Implementați o aplicație în limbajul C ce rezolvă probleme de gestionare a unor produse distribuite de către un centru logistic.
+
+1.
+Definiți structura Produs ce conține:
+
+id produs (unsigned short int),
+
+denumire produs (char*),
+
+stoc produs (unsigned short int),
+
+număr clienți (unsigned char),
+
+stocuri la clienți (unsigned short int*).
+
+2.
+Creați un arbore binar de căutare cu cel puțin 5 produse ale căror date sunt preluate dintr-un fișier text.
+Crearea structurii se realizează prin apel repetat al unei funcții de inserare în arbore, iar cheia de căutare în structură este id produs. (2 p)
+
+3.
+Implementați funcția care determină numărul de produse cu stoc mai mare decât un prag specificat ca parametru al funcției.
+Funcția implementată se apelează în funcția main(), iar rezultatul apelului (număr produse) se afișează în consola de execuție a aplicației. (1 p)
+
+4.
+Implementați funcția care determină valoarea stocului mediu la clienți pentru un produs specificat prin id ca parametru al funcției.
+Funcția implementată se apelează în funcția main(), iar rezultatul apelului se afișează în consola de execuție a aplicației. (1 p)
+
+5.
+Implementați funcția care salvează într-o listă simplă toate valorile de tip id produs plasate pe drumul de la rădăcină către un nod terminal al arborelui.
+Funcția este recursivă, iar la finalul apelului (lista simplă) se parcurge și se afișează în funcția main(). (2,5 p)

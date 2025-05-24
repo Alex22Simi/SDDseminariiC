@@ -1,0 +1,7 @@
+﻿  SubiectProdus.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectProdus\ABC_SubiectProdus\ABC_SubiectProdus\SubiectProdus.c(28,44): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectProdus\ABC_SubiectProdus\ABC_SubiectProdus\SubiectProdus.c(29,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectProdus\ABC_SubiectProdus\ABC_SubiectProdus\SubiectProdus.c(79): warning C4716: 'afisarePreOrdine': must return a value
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectProdus\ABC_SubiectProdus\ABC_SubiectProdus\SubiectProdus.c(93): warning C4716: 'afisareInOrdine': must return a value
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectProdus\ABC_SubiectProdus\ABC_SubiectProdus\SubiectProdus.c(107): warning C4716: 'afisarePostOrdine': must return a value
+  ABC_SubiectProdus.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectProdus\ABC_SubiectProdus\x64\Debug\ABC_SubiectProdus.exe

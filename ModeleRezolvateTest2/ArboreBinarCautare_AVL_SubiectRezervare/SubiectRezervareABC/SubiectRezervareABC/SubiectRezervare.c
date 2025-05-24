@@ -11,6 +11,7 @@ typedef struct Rezervare {
 } Rezervare;
 
 typedef struct NodArb {
+	int BF;
 	Rezervare info;
 	struct NodArb* stanga;
 	struct NodArb* dreapta;
@@ -26,8 +27,8 @@ NodArb* creareNod(Rezervare rezervare, NodArb* stanga, NodArb* dreapta) {
 	strcpy(nou->info.numeClient, rezervare.numeClient);
 	nou->info.dataRezervare = (char*)malloc((strlen(rezervare.dataRezervare) + 1) * sizeof(char));
 	strcpy(nou->info.dataRezervare, rezervare.dataRezervare);
-	nou->stanga = NULL;
-	nou->dreapta = NULL;
+	nou->stanga = stanga;
+	nou->dreapta = dreapta;
 	return nou;
 }
 
@@ -89,6 +90,103 @@ void dezalocareArb(NodArb* rad) {
 		free(rad->info.dataRezervare);
 		free(rad);
 	}
+}
+
+int maxim(int a, int b) {
+	int max = a;
+	if (max < b) {
+		max = b;
+	}
+	return max;
+}
+
+int inaltimeArb(NodArb* rad) {
+	if (rad != NULL) {
+		return 1 + maxim(inaltimeArb(rad->stanga), inaltimeArb(rad->dreapta));
+	}
+	else {
+		return 0;
+	}
+}
+
+void calculeazaBF(NodArb* rad) {
+	if (rad != NULL) {
+		rad->BF = inaltimeArb(rad->dreapta) - inaltimeArb(rad->stanga);
+		calculeazaBF(rad->stanga);
+		calculeazaBF(rad->dreapta);
+	} 
+}
+
+NodArb* rotatieDreapta(NodArb* rad) {
+	printf("\nRotatie dreapta\n");
+	NodArb* nod1 = rad->stanga;
+	rad->stanga = nod1->dreapta;
+	nod1->dreapta = rad;
+	rad = nod1;
+	return rad;
+}
+
+NodArb* rotatieStanga(NodArb* rad) {
+	printf("\nRotatie stanga\n");
+	NodArb* nod1 = rad->dreapta;
+	rad->dreapta = nod1->stanga;
+	nod1->stanga = rad;
+	rad = nod1;
+	return rad;
+}
+
+NodArb* rotatieStangaDreapta(NodArb* rad) {
+	printf("\nRotatie stanga-dreapta\n");
+	NodArb* nod1 = rad->stanga;
+	NodArb* nod2 = nod1->dreapta;
+	nod1->dreapta = nod2->stanga;
+	nod2->stanga = nod1;
+	rad->stanga = nod2->dreapta;
+	nod2->dreapta = rad;
+	rad = nod2;
+	return rad;
+}
+
+NodArb* rotatieDreaptaStanga(NodArb* rad) {
+	printf("\nRotatie dreapta-stanga\n");
+	NodArb* nod1 = rad->dreapta;
+	NodArb* nod2 = nod1->stanga;
+	nod1->stanga = nod2->dreapta;
+	nod2->dreapta = nod1;
+	rad->dreapta = nod2->stanga;
+	nod2->stanga = rad;
+	rad = nod2;
+	return nod2;
+}
+
+NodArb* reechilibrare(NodArb* rad) {
+	calculeazaBF(rad);
+	NodArb* fiuSt = rad->stanga;
+	NodArb* fiuDr = rad->dreapta;
+
+	if (rad->BF <= -2 && fiuSt->BF <= 1) {
+		rad = rotatieDreapta(rad);
+		calculeazaBF(rad);
+	}
+	else {
+		if (rad->BF >= 2 && fiuDr->BF >= 1) {
+			rad = rotatieStanga(rad);
+			calculeazaBF(rad);
+		}
+		else {
+			if (rad->BF <= -2 && fiuSt->BF >= 1) {
+				rad = rotatieStangaDreapta(rad);
+				calculeazaBF(rad);
+			}
+			else {
+				if (rad->BF >= 2 && fiuDr->BF <= -1) {
+					rad = rotatieDreaptaStanga(rad);
+					calculeazaBF(rad);
+				}
+			}
+		}
+	}
+	return rad;
 }
 
 //ex2
@@ -195,6 +293,11 @@ void main() {
 		strcpy(rezervare.dataRezervare, buffer);
 
 		rad = inserareNod(rad, rezervare);
+		free(rezervare.denumireHotel);
+		free(rezervare.numeClient);
+		free(rezervare.dataRezervare);
+
+		rad = reechilibrare(rad);
 	}
 	fclose(f);
 

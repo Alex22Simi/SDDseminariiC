@@ -1,0 +1,6 @@
+5
+10 Telefon 24 3 2 3 1
+2 Tableta 12 2 2 3 
+25 Aspirator 30 2 1 9 
+22 TV 99 2 10 12
+21 PS 77 5 1 33 2 1 1
