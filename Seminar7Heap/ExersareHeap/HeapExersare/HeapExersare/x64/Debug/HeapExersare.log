@@ -1,0 +1,4 @@
+﻿  Heap.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar7Heap\ExersareHeap\HeapExersare\HeapExersare\Heap.c(232,40): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar7Heap\ExersareHeap\HeapExersare\HeapExersare\Heap.c(233,3): warning C4013: 'strcpy' undefined; assuming extern returning int
+  HeapExersare.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar7Heap\ExersareHeap\HeapExersare\x64\Debug\HeapExersare.exe

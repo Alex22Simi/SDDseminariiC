@@ -1,0 +1,4 @@
+﻿  ExersareAVL.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar9AVL\ExersareAVL\ExersareAVL\ExersareAVL\ExersareAVL.c(358,35): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar9AVL\ExersareAVL\ExersareAVL\ExersareAVL\ExersareAVL.c(359,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  ExersareAVL.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\Seminar9AVL\ExersareAVL\ExersareAVL\x64\Debug\ExersareAVL.exe

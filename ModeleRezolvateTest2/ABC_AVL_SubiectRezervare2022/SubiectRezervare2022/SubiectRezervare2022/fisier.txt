@@ -1,0 +1,6 @@
+5
+22 Calimanesti 4 Simionescu 400
+3 Cozia 2 Ionescu 200
+2 Buzau 1 Florescu 100
+5 Braila 6 Simionescu 600
+55 Oradea 3 Georgescu 300

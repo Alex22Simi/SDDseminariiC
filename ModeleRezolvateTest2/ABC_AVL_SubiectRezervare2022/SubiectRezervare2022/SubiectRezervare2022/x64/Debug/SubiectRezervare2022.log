@@ -1,0 +1,10 @@
+﻿  Rezervare.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_AVL_SubiectRezervare2022\SubiectRezervare2022\SubiectRezervare2022\Rezervare.c(22,43): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_AVL_SubiectRezervare2022\SubiectRezervare2022\SubiectRezervare2022\Rezervare.c(23,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_AVL_SubiectRezervare2022\SubiectRezervare2022\SubiectRezervare2022\Rezervare.c(232,7): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_AVL_SubiectRezervare2022\SubiectRezervare2022\SubiectRezervare2022\Rezervare.c(77): warning C4716: 'afisarePostOrdine': must return a value
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_AVL_SubiectRezervare2022\SubiectRezervare2022\SubiectRezervare2022\Rezervare.c(67): warning C4716: 'afisareInOrdine': must return a value
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_AVL_SubiectRezervare2022\SubiectRezervare2022\SubiectRezervare2022\Rezervare.c(47): warning C4715: 'inserareNod': not all control paths return a value
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_AVL_SubiectRezervare2022\SubiectRezervare2022\SubiectRezervare2022\Rezervare.c(57): warning C4716: 'afisarePreOrdine': must return a value
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_AVL_SubiectRezervare2022\SubiectRezervare2022\SubiectRezervare2022\Rezervare.c(220): warning C4716: 'afisarePreOrdineEx2': must return a value
+  SubiectRezervare2022.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_AVL_SubiectRezervare2022\SubiectRezervare2022\x64\Debug\SubiectRezervare2022.exe

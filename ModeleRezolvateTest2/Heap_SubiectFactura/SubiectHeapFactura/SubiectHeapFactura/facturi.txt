@@ -1,0 +1,11 @@
+10
+4 Simionescu Calimanesti 3 300
+43 Popescu Buzau 2 200
+22 Florescu Bucuresti 4 400
+13 Ionescu Brasov 1 100
+10 Gheorghe Cluj 6 600
+11 Ion Giurgiu 5 500
+9 Florin Pitesti 7 700
+2 George Valcea 8 800
+1 Alex Cozia 9 900
+33 Daniel Sibiu 10 1000

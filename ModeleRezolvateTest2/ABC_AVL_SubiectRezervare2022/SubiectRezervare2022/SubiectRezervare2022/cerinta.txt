@@ -1,0 +1,40 @@
+﻿Cerința 1:
+Definiți structura Rezervare ce conține:
+
+id rezervare (tip unsigned int),
+
+denumire hotel (tip char*),
+
+număr camere rezervate (tip unsigned char),
+
+nume client (tip char*),
+
+suma de plată RON (tip float).
+
+Creați un arbore binar de căutare cu cel puțin 5 rezervări ale căror date sunt preluate dintr-un fișier text.
+Cheia de căutare în structură este id rezervare.
+(1 punct)
+
+Cerința 2:
+Afișați elementele din arborele creat mai sus prin traversarea sa în preordine.
+La consolă se vor afișa următoarele date:
+
+id rezervare
+
+nume client
+(0.5 puncte)
+
+Cerința 3:
+Implementați funcția care returnează contravaloarea tuturor rezervărilor (din arborele creat mai sus) efectuate de un client cu un client specificat ca parametru al funcției.
+Funcția implementată se apelează în funcția main(), iar rezultatul apelului se afișează în consola de execuție a aplicației.
+(1 punct)
+
+Cerința 4:
+Implementați funcția care elimină (șterge) nodul cu cheia minimă în structura arborescentă creată mai sus.
+Funcția implementată se apelează în funcția main(), iar arborele se afișează apoi în ordine în consola de execuție a aplicației.
+(1.5 puncte)
+
+Cerința 5:
+Implementați funcția care returnează un vector ce conține numărul de noduri plasate pe fiecare nivel în arborele creat mai sus.
+Funcția se apelează în funcția main(), iar rezultatul apelului (vectorul) se afișează în consola de execuție a aplicației.
+(1.5 puncte)
