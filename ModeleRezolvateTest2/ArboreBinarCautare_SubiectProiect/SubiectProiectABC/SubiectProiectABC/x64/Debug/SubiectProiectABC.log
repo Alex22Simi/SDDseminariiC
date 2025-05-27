@@ -1,0 +1,6 @@
+﻿  Proiect.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectProiect\SubiectProiectABC\SubiectProiectABC\Proiect.c(23,42): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectProiect\SubiectProiectABC\SubiectProiectABC\Proiect.c(24,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectProiect\SubiectProiectABC\SubiectProiectABC\Proiect.c(103,6): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectProiect\SubiectProiectABC\SubiectProiectABC\Proiect.c(219,27): warning C4305: 'function': truncation from 'double' to 'float'
+  SubiectProiectABC.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ArboreBinarCautare_SubiectProiect\SubiectProiectABC\x64\Debug\SubiectProiectABC.exe

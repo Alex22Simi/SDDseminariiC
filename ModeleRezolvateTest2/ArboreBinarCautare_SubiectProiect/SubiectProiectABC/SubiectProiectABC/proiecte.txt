@@ -1,0 +1,6 @@
+5
+22 InvestitiiTitluriStat Simionescu 365 200
+33 InvestitiiBursa Popescu 333 50
+12 Bitcoin Florescu 200 100
+1 PI Simionescu 200 300
+23 InvestitiiTitluriStat David 1095 75

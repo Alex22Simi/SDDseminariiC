@@ -1,0 +1,14 @@
+﻿Implementați o aplicație în limbajul C ce rezolvă probleme specifice unor proiecte de investiții.
+
+Definiți structura Proiect ce conține: cod proiect (unsigned int), titlu proiect (char*), beneficiar (char*), durată planificată – număr zile (unsigned short int), buget alocat (float).
+Creați un arbore binar de căutare cu datele al cel puțin 5 proiecte preluate dintr-un fișier text. Crearea structurii se realizează prin apel repetat al unei funcții de inserare în arbore, iar cheia de căutare în structură este cod proiect. (1 p)
+
+Implementați funcția care determină numărul de proiecte având același beneficiar. Beneficiarul este specificat ca parametru de intrare al funcției. Funcția implementată se apelează în funcția main(), iar rezultatul apelului se afișează în consola de execuție a aplicației. (1 p)
+
+Implementați funcția care modifică bugetul unui proiect specificat prin cod proiect în lista de parametri ai funcției. Noua valoare se determină pe baza unui procent/coeficient specificat, de asemenea, în lista de parametri ai funcției. Funcția implementată se apelează în main(), iar rezultatul apelului se validează prin căutarea proiectului pe baza codului în structura arborescentă. (1 p)
+
+Implementați funcția care determină numărul de noduri frunză din structura arborescentă creată mai sus. Funcția implementată se apelează în main(), iar rezultatul apelului se afișează în consola de execuție a aplicației. (1 p)
+
+Implementați funcția care returnează un vector de proiecte cu durata planificată mai mare decât o valoare prag specificată în lista de parametri ai funcției. Datele sunt preluate din structura arborescentă. Se va aloca dinamic memorie pentru vectorul rezultat. Memoria heap între cele două structuri (arbore și vector) nu trebuie să se suprapună. Funcția se apelează în main(), iar rezultatul apelului (vector) se afișează în consola de execuție a aplicației. (1,5 p)
+
+Dezalocați toate zonele de memorie heap alocate și utilizate în cadrul cerințelor de mai sus. (0,5 p)
