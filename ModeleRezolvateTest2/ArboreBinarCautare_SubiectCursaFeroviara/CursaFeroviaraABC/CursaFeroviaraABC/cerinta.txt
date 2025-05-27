@@ -1,0 +1,32 @@
+﻿Implementați o aplicație în limbajul C ce rezolvă probleme de gestionare a curselor feroviare.
+
+1. Definiți structura CursaFerroviara ce conține:
+
+număr cursă (unsigned int),
+
+data cursă (ex: char*),
+
+număr de vagoane tren (unsigned char),
+
+număr de bilete cumpărate clasa I/II (unsigned short int[2]),
+
+preț bilet clasa I/II (float[2]).
+
+Creați un arbore binar de căutare cu cel puțin 5 curse feroviare ale căror date sunt preluate dintr-un fișier text. Crearea structurii se realizează prin apel repetat al unei funcții de inserare nod în structură, iar cheia de căutare în structură este număr cursă.
+(1p)
+
+2. Implementați funcția care determină numărul de bilete cumpărate la clasa a II-a pentru toate cursele din structura arborească creată mai sus. Funcția implementată se apelează în funcția main(), iar rezultatul apelului se afișează în consola de execuție a aplicației.
+(1p)
+
+3. Implementați funcția care modifică prețul biletelor la clasa I pentru cursele feroviare programate la o anumită dată calendaristică.
+Data cursă feroviară și procentul de modificare se vor specifica în lista de parametri ai funcției.
+Funcția implementată se apelează în funcția main(), iar rezultatul apelului se validează prin traversarea în inordine a structurii arborești.
+(1p)
+
+4. Implementați funcția care returnează cursa feroviară cu încasări maxime din structura arborească. În cazul în care două sau mai multe curse feroviare au aceeași valoare maximă a încasărilor, la ieșire se va afișa una singură (la alegerea dvs.).
+Funcția implementată se apelează în funcția main(), iar rezultatul apelului (cursa feroviară) se afișează în consola de execuție a aplicației.
+(1,5p)
+
+5. Implementați funcția care returnează un vector cu numerele curselor feroviare stocate în nodurile frunză ale structurii arborești.
+Funcția implementată se apelează în funcția main(), iar rezultatul apelului (vector) se afișează în consola de execuție a aplicației.
+(1,5p)
