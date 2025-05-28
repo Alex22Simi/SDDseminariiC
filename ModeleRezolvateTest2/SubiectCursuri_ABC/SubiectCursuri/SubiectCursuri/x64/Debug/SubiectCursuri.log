@@ -1,0 +1,5 @@
+﻿  Curs.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\SubiectCursuri_ABC\SubiectCursuri\SubiectCursuri\Curs.c(23,48): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\SubiectCursuri_ABC\SubiectCursuri\SubiectCursuri\Curs.c(24,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\SubiectCursuri_ABC\SubiectCursuri\SubiectCursuri\Curs.c(133,7): warning C4013: 'strcmp' undefined; assuming extern returning int
+  SubiectCursuri.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\SubiectCursuri_ABC\SubiectCursuri\x64\Debug\SubiectCursuri.exe

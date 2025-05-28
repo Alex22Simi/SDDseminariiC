@@ -1,0 +1,13 @@
+﻿(1p) Din enunț:
+
+Să se implementeze o aplicație în limbajul C ce rezolvă probleme de gestiune a cursurilor (teme și examene). Aplicația utilizează o structură de curs Curs care conține: cod curs (int), nume curs (char*), nr_credite (int), nr_examene (int), procent_prezenta (float).
+Să se definească o structură de date dinamică pentru stocarea a cel puțin 5 cursuri citite dintr-un fișier text. Crearea structurii se va realiza prin apel repetat al unei funcții de inserare în arbore, iar cheia de căutare în structură este codul cursului.
+
+(2p) Să se scrie o funcție care numără câte cursuri au un cod curs specificat în fișierul de intrare.
+Funcția implementată se apelează în funcția main(), iar rezultatul apelului se afișează în consola de execuție a aplicației.
+
+(2p) Să se scrie funcția pentru stocarea într-un array static de tip vector a codurilor cursurilor având procentul de prezență mai mare decât o valoare specificată.
+Funcția implementată se apelează în funcția main() iar rezultatul apelului se va afișa în consola de execuție a aplicației.
+
+(2p) Să se dezaloce toate structurile de date dinamice construite.
+Operația de dezalocare va fi însoțită de afișarea conținutului structurii la consolă înainte de dezalocarea memoriei heap.
