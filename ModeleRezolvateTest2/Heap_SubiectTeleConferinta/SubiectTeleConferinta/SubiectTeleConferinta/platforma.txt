@@ -1,0 +1,11 @@
+10
+122 LicentaPRO 2 12 13 1
+222 LicentaExpert 3 10 9 6 2 
+22 LicentaX 4 3 5 5 3 3  
+433 LicentaZ 2 22 15 4  
+12 LicentaY 5 12 13 12 13 12 5  
+9 LicentaK 3 10 11 15 6  
+555 LicentaL 2 2 2 7  
+100 LicentaQ 7 12 13 12 12 12 12 12 8  
+55 LicentaB 2 4 4 9  
+77 LicentaU 4 2 2 3 4 10  

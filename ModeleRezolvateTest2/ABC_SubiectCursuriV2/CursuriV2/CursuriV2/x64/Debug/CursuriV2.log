@@ -1,0 +1,7 @@
+﻿  FileName.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_SubiectCursuriV2\CursuriV2\CursuriV2\FileName.c(23,48): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_SubiectCursuriV2\CursuriV2\CursuriV2\FileName.c(24,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_SubiectCursuriV2\CursuriV2\CursuriV2\FileName.c(130,7): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_SubiectCursuriV2\CursuriV2\CursuriV2\FileName.c(134,53): error C2065: 'dataP0aram': undeclared identifier
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_SubiectCursuriV2\CursuriV2\CursuriV2\FileName.c(134,43): warning C4047: 'function': 'const char *' differs in levels of indirection from 'int'
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\ABC_SubiectCursuriV2\CursuriV2\CursuriV2\FileName.c(134,43): warning C4024: 'getVect': different types for formal and actual parameter 4

@@ -1,0 +1,21 @@
+﻿Implementați o aplicație în limbajul C ce rezolvă probleme de gestionare a platformelor online destinate tele-conferințelor.
+
+Scrieți secvența de cod sursă pentru crearea unei structuri de tip Min-HEAP ce conține date aferente unor Platforme. Prioritatea în utilizarea platformelor este dată de prețul aferent licenței pentru respectiva platformă. Inserarea unei platforme se implementează într-o funcție care se apelează în secvența de creare a structurii Min-HEAP.
+
+Structura Platforma se va defini astfel încât să conțină minim 5 câmpuri, unul este prețul și minim alte două dintre celelalte sunt declarate ca pointeri la două tipuri diferite între ele.
+
+În cadrul structurii Min-HEAP sunt introduse cel puțin 10 platforme care se preiau ca input dintr-un fișier text.
+(2p)
+
+Scrieți și apelați funcția care modifică prețul platformei cu prețul cel mai mic din cadrul structurii Min-HEAP.
+Platforma este reintrodusă în cadrul structurii cu noul preț.
+(2,5p)
+
+Scrieți secvența de cod care copiază platformele din structura creată anterior într-o structură de tip Arbore Binar de Căutare. Valoarea n este primită ca parametru. Inserarea platformelor în arborele binar de căutare se realizează pe baza unui câmp definit în structura Platformă, dar nu câmpul preț. Cele două structuri de date NU partajează zone de memorie heap. Adică trebuie să faceți deep-copy.
+(3p)
+
+Scrieți și apelați funcția care afișează platformele aflate în nodurile care au un singur nod descendent.
+(1p)
+
+Scrieți secvența de cod care dezaloacă structura Min-HEAP și cele Arborere Binar de Căutare create la punctele anterioare.
+(1,5p)

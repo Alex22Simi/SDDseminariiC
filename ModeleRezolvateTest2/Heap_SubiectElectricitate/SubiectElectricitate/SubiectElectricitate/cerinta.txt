@@ -1,0 +1,12 @@
+﻿(1 p) din oficiu
+
+(2 p) 1. O companie de electricitate implementează o aplicație de gestiune a încasării plăților facturilor de energie electrică. Încasările ajung în sistem pe două canale: încasări prin canale electronice și încasări prin ghișeele companiei. Fiecare încasare conține informații referitoare la factura încasată.
+Se definește structura Factura ce conține: cod client (string de tip char*), valoare factura (numeric fără semn), data emiterii (string de tip char*), data scadentă (string de tip char*), canal încasare (valoare în mulțimea {electronic, ghiseu}).
+Aplicația va încărca informațiile despre facturi într-o structură de date care permite ordonarea acestora în funcție de data scadentă (structură de tip min-heap). Prioritatea este dată de numărul de zile dintre momentul curent și data scadentă.
+
+(2 p) 2. Să se scrie funcția pentru actualizarea canalului de încasare al unei facturi. Pe măsură ce o factură devine scadentă (extragere din min-heap), aceasta este eliminată din structura de date inițială și este plasată într-o structură de date dinamică secvențială FIFO.
+
+(2 p) 3. Să se scrie funcția pentru salvarea într-o listă simplă a facturilor scadente, prin consultarea structurii secvențiale FIFO creată la punctul anterior.
+
+(2 p) 4. Să se dezaloce toate structurile de date dinamice construite. Operația de dezalocare va fi însoțită de afișarea conținutului structurilor la consolă, înainte de dezalocarea memoriei heap.
+

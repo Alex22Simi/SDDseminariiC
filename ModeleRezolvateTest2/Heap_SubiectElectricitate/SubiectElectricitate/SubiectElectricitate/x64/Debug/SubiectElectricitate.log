@@ -1,0 +1,5 @@
+﻿  SubiectElectricitate.c
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\Heap_SubiectElectricitate\SubiectElectricitate\SubiectElectricitate\SubiectElectricitate.c(38,28): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\Heap_SubiectElectricitate\SubiectElectricitate\SubiectElectricitate\SubiectElectricitate.c(122,39): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\Heap_SubiectElectricitate\SubiectElectricitate\SubiectElectricitate\SubiectElectricitate.c(123,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  SubiectElectricitate.vcxproj -> C:\Users\Simionescu Alexandru\Desktop\SDDseminariiC\ModeleRezolvateTest2\Heap_SubiectElectricitate\SubiectElectricitate\x64\Debug\SubiectElectricitate.exe
